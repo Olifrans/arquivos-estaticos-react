@@ -43,3 +43,10 @@
 
 # Install classnames para classes condicionais
 # yarn add classnames
+
+
+
+
+# Adding Images, Fonts, and Files
+# https://create-react-app.dev/docs/adding-images-fonts-and-files
+# https://create-react-app.dev/docs/using-the-public-folder

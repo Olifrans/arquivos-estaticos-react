@@ -1,0 +1,166 @@
+[
+  {
+    "title": "Rocket Billionaires, de Tim Fernholz",
+    "description": "Para quem gosta de assuntos sobre o espaço, “Rocket Billionaires” apresenta as dificuldades da indústria de foguetes. O livro mostra, ainda, a história do primeiro pouso na Lua, analisa as empresas atuais e explica de que forma o setor privado transformou o mercado.",
+    "photo": "/assets/livros/rocketbillionaires.jpg",
+    "size": 400,
+    "serving": 2,
+    "price": 73.0,
+    "id": 1,
+    "category": {
+      "id": 1,
+      "label": "cloud-computing"
+    }
+  },
+
+
+
+  {
+    "title": "Sql Server",
+    "description": "Para quem gosta de assuntos sobre o espaço, “Rocket Billionaires” apresenta as dificuldades da indústria de foguetes. O livro mostra, ainda, a história do primeiro pouso na Lua, analisa as empresas atuais e explica de que forma o setor privado transformou o mercado.",
+    "photo": "/assets/livros/sqlserver.jpg",
+    "size": 400,
+    "serving": 2,
+    "price": 73.0,
+    "id": 1,
+    "category": {
+      "id": 1,
+      "label": "banco-de-dados"
+    }
+  },
+
+
+
+
+
+
+
+
+  {
+    "title": "JavaScript",
+    "description": "OOP (Object-Oriented Programming) é uma abordagem na programação em qual os dados são encapsulados em objects e o proprio objeto é operado, em vez de suas partes componentes. JavaScript é altamente orientado à objeto. Isto segue um modelo baseado em prototypes (as opposed to class-based)",
+    "photo": "/assets/livros/javascript.jpg",
+    "size": 400,
+    "serving": 2,
+    "price": 54.0,
+    "id": 2,
+    "category": {
+      "id": 1,
+      "label": "front-end"
+    }
+  },
+
+
+
+  {
+    "title": "Node JS",
+    "description": "OOP (Object-Oriented Programming) é uma abordagem na programação em qual os dados são encapsulados em objects e o proprio objeto é operado, em vez de suas partes componentes. JavaScript é altamente orientado à objeto. Isto segue um modelo baseado em prototypes (as opposed to class-based)",
+    "photo": "/assets/livros/macarrao_da_casa.png",
+    "size": 400,
+    "serving": 2,
+    "price": 54.0,
+    "id": 2,
+    "category": {
+      "id": 1,
+      "label": "back-end"
+    }
+  },
+
+
+
+
+
+
+  {
+    "title": "O Ambiente de Trabalho de 2020”, de Jeanne C. Meister e Karie Willyerd",
+    "description": "Para auxiliar as empresas na adaptação aos talentos do futuro, o título apresenta quais medidas devem ser tomadas para atrair e reter os melhores profissionais.",
+    "photo": "/assets/livros/macarrao_com_chilli.png",
+    "size": 350,
+    "serving": 1,
+    "price": 58.0,
+    "id": 3,
+    "category": {
+      "id": 1,
+      "label": "O Ambiente de Trabalho de 2020"
+    }
+  },
+  {
+    "title": "A Revolução Digital na Saúde”, de Claudio Lottenberg, Patrícia Ellen da Silva e Sidney Klajner",
+    "description": "O livro mostra como a inteligência artificial e a Internet das Coisas podem representar oportunidades para a melhoria da saúde humana.",
+    "photo": "/assets/livros/salada_da_casa.png",
+    "size": 450,
+    "serving": 1,
+    "price": 42.0,
+    "id": 4,
+    "category": {
+      "id": 2,
+      "label": "front-end"
+    }
+  },
+
+  {
+    "title": "Sapiens, de Yuval Noah Harari",
+    "description": "Autor apresenta a história da humanidade, desde os ancestrais até os dias de hoje. Ao longo do livro, o leitor acompanha as mudanças da raça humana e cria uma perspectiva sobre o por que somos quem somos.",
+    "photo": "/assets/livros/bife_com_batatas.png",
+    "size": 550,
+    "serving": 2,
+    "price": 86.0,
+    "id": 5,
+    "category": {
+      "id": 2,
+      "label": "Sapiens"
+    }
+  },
+  {
+    "title": "As Superpotências da Inteligência Artificial, de Kai-Fu Lee",
+    "description": "O livro explica como a inteligência artificial é aplicada aos negócios e de que forma a China está utilizando a tecnologia para o seu benefício. Kai-Fu Lee também explica as diferenças entre o Vale do Silício e o ecossistema chinês de startups.",
+    "photo": "/assets/livros/picanha_picada.png",
+    "size": 850,
+    "serving": 3,
+    "price": 123.0,
+    "id": 6,
+    "category": {
+      "id": 3,
+      "label": "As Superpotências da Inteligência Artificial"
+    }
+  },
+  {
+    "title": "Lasagna vegana (carne de soja)",
+    "description": "Lasagna 100% vegana feita com carne de soja e massa especial.",
+    "photo": "/assets/livros/lasagna_vegana.png",
+    "size": 350,
+    "serving": 1,
+    "price": 45.0,
+    "id": 7,
+    "category": {
+      "id": 4,
+      "label": "front-end"
+    }
+  },
+  {
+    "title": "Bad Blood: Fraude Bilionária no Vale do Silício, de John Carreyrou",
+    "description": "A obra mostra como acontecem as operações no Vale do Silício a partir da história da startup Theranos e de sua fundadora Elizabeth Holmes. O escritor John Carreyrou também discute as falhas dos projetos de quem deseja construir uma empresa bilionária a qualquer custo sem pensar em inovação.",
+    "photo": "/assets/livros/badblood.png",
+    "size": 350,
+    "serving": 1,
+    "price": 37.0,
+    "id": 8,
+    "category": {
+      "id": 4,
+      "label": "Fraude Bilionária no Vale do Silício"
+    }
+  },
+  {
+    "title": "The Everything Store, de Brad Stone",
+    "description": "The Everything Store” conta a história de como a Amazon passou de uma pequena loja de livros online para se tornar uma gigante global em constante crescimento.",
+    "photo": "/assets/livros/almondegas.png",
+    "size": 740,
+    "serving": 3,
+    "price": 120.0,
+    "id": 9,
+    "category": {
+      "id": 3,
+      "label": "cloud-computing"
+    }
+  }
+]
