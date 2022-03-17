@@ -24,14 +24,10 @@
     "price": 73.0,
     "id": 1,
     "category": {
-      "id": 1,
+      "id": 2,
       "label": "banco-de-dados"
     }
   },
-
-
-
-
 
 
 
@@ -45,7 +41,7 @@
     "price": 54.0,
     "id": 2,
     "category": {
-      "id": 1,
+      "id": 3,
       "label": "front-end"
     }
   },
@@ -55,13 +51,13 @@
   {
     "title": "Node JS",
     "description": "OOP (Object-Oriented Programming) é uma abordagem na programação em qual os dados são encapsulados em objects e o proprio objeto é operado, em vez de suas partes componentes. JavaScript é altamente orientado à objeto. Isto segue um modelo baseado em prototypes (as opposed to class-based)",
-    "photo": "/assets/livros/macarrao_da_casa.png",
+    "photo": "/assets/livros/nodejs.jpg",
     "size": 400,
     "serving": 2,
     "price": 54.0,
     "id": 2,
     "category": {
-      "id": 1,
+      "id": 4,
       "label": "back-end"
     }
   },
@@ -74,26 +70,26 @@
   {
     "title": "O Ambiente de Trabalho de 2020”, de Jeanne C. Meister e Karie Willyerd",
     "description": "Para auxiliar as empresas na adaptação aos talentos do futuro, o título apresenta quais medidas devem ser tomadas para atrair e reter os melhores profissionais.",
-    "photo": "/assets/livros/macarrao_com_chilli.png",
+    "photo": "/assets/livros/ambientetrabalho2020.jpg",
     "size": 350,
     "serving": 1,
     "price": 58.0,
     "id": 3,
     "category": {
-      "id": 1,
+      "id": 5,
       "label": "O Ambiente de Trabalho de 2020"
     }
   },
   {
     "title": "A Revolução Digital na Saúde”, de Claudio Lottenberg, Patrícia Ellen da Silva e Sidney Klajner",
     "description": "O livro mostra como a inteligência artificial e a Internet das Coisas podem representar oportunidades para a melhoria da saúde humana.",
-    "photo": "/assets/livros/salada_da_casa.png",
+    "photo": "/assets/livros/revolucaodigitalsaude.jpg",
     "size": 450,
     "serving": 1,
     "price": 42.0,
     "id": 4,
     "category": {
-      "id": 2,
+      "id": 6,
       "label": "front-end"
     }
   },
@@ -101,29 +97,30 @@
   {
     "title": "Sapiens, de Yuval Noah Harari",
     "description": "Autor apresenta a história da humanidade, desde os ancestrais até os dias de hoje. Ao longo do livro, o leitor acompanha as mudanças da raça humana e cria uma perspectiva sobre o por que somos quem somos.",
-    "photo": "/assets/livros/bife_com_batatas.png",
+    "photo": "/assets/livros/sapiens.jpg",
     "size": 550,
     "serving": 2,
     "price": 86.0,
     "id": 5,
     "category": {
-      "id": 2,
+      "id": 7,
       "label": "Sapiens"
     }
   },
   {
     "title": "As Superpotências da Inteligência Artificial, de Kai-Fu Lee",
     "description": "O livro explica como a inteligência artificial é aplicada aos negócios e de que forma a China está utilizando a tecnologia para o seu benefício. Kai-Fu Lee também explica as diferenças entre o Vale do Silício e o ecossistema chinês de startups.",
-    "photo": "/assets/livros/picanha_picada.png",
+    "photo": "/assets/livros/inteligenciaartificial.png",
     "size": 850,
     "serving": 3,
     "price": 123.0,
     "id": 6,
     "category": {
-      "id": 3,
+      "id": 8,
       "label": "As Superpotências da Inteligência Artificial"
     }
   },
+
   {
     "title": "Lasagna vegana (carne de soja)",
     "description": "Lasagna 100% vegana feita com carne de soja e massa especial.",
@@ -146,7 +143,7 @@
     "price": 37.0,
     "id": 8,
     "category": {
-      "id": 4,
+      "id": 9,
       "label": "Fraude Bilionária no Vale do Silício"
     }
   },
@@ -159,7 +156,7 @@
     "price": 120.0,
     "id": 9,
     "category": {
-      "id": 3,
+      "id": 10,
       "label": "cloud-computing"
     }
   }

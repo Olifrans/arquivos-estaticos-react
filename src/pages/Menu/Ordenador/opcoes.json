@@ -4,15 +4,15 @@
     "value": ""
   },
   {
-    "nome": "Java OOP",
-    "value": "java_oop"
+    "nome": "Progamação de BackEnd",
+    "value": "progamacao-backend"
   },
   {
-    "nome": "NodeJs OOP",
-    "value": "Nodejs-oop"
+    "nome": "Banco de Dados",
+    "value": "banco-de-dados"
   },
   {
-    "nome": "TepyScript OOP",
-    "value": "tepyscript_oop"
+    "nome": "Progamação FrontEnd",
+    "value": "progamacao-frontend"
   }
 ]
