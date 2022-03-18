@@ -4,6 +4,7 @@ import Inicio from "pages/Inicio";
 import Menu from "pages/Menu";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import PaginaPadrao from "components/PaginaPadrao";
+import Sobre from "pages/Sobre";
 
 export default function AppRouter(){
     return(
@@ -15,6 +16,7 @@ export default function AppRouter(){
                     <Route path="/" element={<PaginaPadrao />}>
                         <Route index element={<Inicio />} />    
                         <Route path="menu" element={<Menu />} />    
+                        <Route path="sobre" element={<Sobre />} />    
                     </Route>                                
                 </Routes>
             </Router>    

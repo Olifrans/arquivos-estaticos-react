@@ -152,3 +152,7 @@ yarn eslint ./src/ --fix
 
 
 
+
+
+Comando para indentar usando o  --> eslint
+yarn eslint ./src/ --fix
