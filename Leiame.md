@@ -50,3 +50,95 @@
 # Adding Images, Fonts, and Files
 # https://create-react-app.dev/docs/adding-images-fonts-and-files
 # https://create-react-app.dev/docs/using-the-public-folder
+
+
+
+
+
+
+# ícone React: conhecendo a biblioteca React Router React: conhecendo a biblioteca React Router
+
+# Criando o ESLint
+
+# https://eslint.org/docs/user-guide/getting-started
+
+
+nstallation and Usage
+Prerequisites: Node.js (^12.22.0, ^14.17.0, or >=16.0.0) built with SSL support. (If you are using an official Node.js distribution, SSL is always built in.)
+
+You can install ESLint using npm or yarn:
+
+npm install eslint --save-dev
+
+# or
+
+yarn add eslint --dev
+
+
+You should then set up a configuration file, and the easiest way to do that is:
+
+npm init @eslint/config
+
+# or
+
+yarn create @eslint/config
+
+
+
+? How would you like to use ESLint? ...
+  To check syntax only
+  To check syntax and find problems
+> To check syntax, find problems, and enforce code style  --->ok
+
+
+
+? What type of modules does your project use? ...
+> JavaScript modules (import/export) --->ok
+  CommonJS (require/exports)
+  None of these
+
+
+  ? Which framework does your project use? ...
+> React  --->ok
+  Vue.js
+  None of these
+
+
+  ? Does your project use TypeScript? » 
+/ No
+/ Yes --->ok
+
+
+
+
+? How would you like to define a style for your project? ...
+> Use a popular style guide
+  Answer questions about your style  --->ok
+
+
+? What style of indentation do you use? ...
+> Tabs
+  Spaces --->ok
+
+
+  ? What quotes do you use for strings? ...
+> Double --->ok
+  Single
+
+
+
+corrigindo erros!
+yarn run eslint ./src/ --fix
+yarn eslint ./src/ --fix
+
+
+"rules": {
+        "react/react-in-jsx-scope": "off", do react
+        "indent": [
+            "error",
+            4
+        ],
+
+
+        validando:
+        yarn eslint ./src/ --fix

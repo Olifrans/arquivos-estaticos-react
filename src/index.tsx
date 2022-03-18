@@ -5,10 +5,10 @@ import Menu from "./pages/Menu";
 import "normalize-css";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <div>
-      <Menu />
-    </div>
-  </React.StrictMode>,
-  document.getElementById("root")
+    <React.StrictMode>
+        <div>
+            <Menu />
+        </div>
+    </React.StrictMode>,
+    document.getElementById("root")
 );
