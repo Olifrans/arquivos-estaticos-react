@@ -12,11 +12,13 @@ export default function Menu() {
     const [ordenador, setOrdenador] = useState("");
 
     return (
-        <main>           
+        <>           
 
-            <header className={styles.header}>
+            {/* <header className={styles.header}>
                 <div className={styles.header__text}>React - Arquivos Estáticos</div>
-            </header>
+            </header> */}
+
+
 
             <section className={styles.cardapio}>
                 <h3 className={styles.cardapio__titulo}>Selecione Uma Tenologia</h3>
@@ -29,6 +31,6 @@ export default function Menu() {
                 <Itens busca={busca} filtro={filtro} ordenador={ordenador} />
 
             </section>
-        </main>
+        </>
     );
 }
