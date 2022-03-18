@@ -10,10 +10,8 @@ export default function Inicio(){
     livrosRecomendado = livrosRecomendado.sort(()=> 0.5 - Math.random()).splice(0,3);
 
     return(
-        <section>
-            <MenuNave />
+        <section>            
             <h3 className={styles.titulo}>Leituras Recomendada </h3>
-
             <div className={styles.recomendados}>
                 {livrosRecomendado.map(item => (
                     <div key={item.id} className={styles.recomendado}>

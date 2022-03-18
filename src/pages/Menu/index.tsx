@@ -12,8 +12,7 @@ export default function Menu() {
     const [ordenador, setOrdenador] = useState("");
 
     return (
-        <main>
-            <MenuNave />
+        <main>           
 
             <header className={styles.header}>
                 <div className={styles.header__text}>React - Arquivos Estáticos</div>
