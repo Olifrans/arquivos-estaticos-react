@@ -12,25 +12,16 @@ export default function Menu() {
     const [ordenador, setOrdenador] = useState("");
 
     return (
-        <>           
+        <section className={styles.cardapio}>
+            <h3 className={styles.cardapio__titulo}>Selecione Uma Tenologia</h3>
 
-            {/* <header className={styles.header}>
-                <div className={styles.header__text}>React - Arquivos Estáticos</div>
-            </header> */}
+            <Buscador busca={busca} setBusca={setBusca} />
+            <div className={styles.cardapio__filtros}>
+                <Filtros filtro={filtro} setFiltro={setFiltro} />
+                <Ordenador ordenador={ordenador} setOrdenador={setOrdenador} />
+            </div>
+            <Itens busca={busca} filtro={filtro} ordenador={ordenador} />
 
-
-
-            <section className={styles.cardapio}>
-                <h3 className={styles.cardapio__titulo}>Selecione Uma Tenologia</h3>
-
-                <Buscador busca={busca} setBusca={setBusca} />
-                <div className={styles.cardapio__filtros}>
-                    <Filtros filtro={filtro} setFiltro={setFiltro} />
-                    <Ordenador ordenador={ordenador} setOrdenador={setOrdenador} />
-                </div>
-                <Itens busca={busca} filtro={filtro} ordenador={ordenador} />
-
-            </section>
-        </>
+        </section>    
     );
 }
