@@ -142,3 +142,13 @@ yarn eslint ./src/ --fix
 
         validando:
         yarn eslint ./src/ --fix
+
+
+
+
+# Usando react-router-dom
+        yarn add react-router-dom
+        yarn add react-router-dom@6
+
+
+

@@ -1,4 +1,4 @@
-import menuItens from "./itens.json";
+import menuItens from "data/livros.json";
 import Item from "./Item";
 import styles from "./Itens.module.scss";
 import { useState, useEffect } from "react";
