@@ -2,7 +2,7 @@
 @import "styles/_variaveis.scss";
 
 $banco-de-dados: #d73b3b;
-$back-end: #30201e;
+$desenvolvimento-software: #30201e;
 $cloud-computing: #e6c864;
 $front-end: #80aa40;
 
@@ -76,8 +76,8 @@ $front-end: #80aa40;
       background-color: $banco-de-dados;
       color: white;
     }
-    &__back-end {
-      background-color: $back-end;
+    &__desenvolvimento-software {
+      background-color: $desenvolvimento-software;
       color: white;
     }
     &__cloud-computing {

@@ -25,7 +25,7 @@ export default function Itens(props: Props) {
 
   function ordenar(novaLista: typeof menuItens) {
     switch (ordenador) {
-      case "progamacao-backend":
+      case "desenvolvimento-software":
         return novaLista.sort((a, b) => (a.size > b.size ? 1 : -1));
 
       case "banco-de-dados":
