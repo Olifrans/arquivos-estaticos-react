@@ -1,9 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import Menu from "./pages/Menu";
 import "normalize-css";
-import Inicio from "pages/Inicio";
 import AppRouter from "routes";
 
 

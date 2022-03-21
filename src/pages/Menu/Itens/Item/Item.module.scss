@@ -1,15 +1,19 @@
 @import "styles/_breakpoints.scss";
 @import "styles/_variaveis.scss";
 
-$banco-de-dados: #d73b3b;
-$desenvolvimento-software: #30201e;
-$cloud-computing: #e6c864;
-$front-end: #80aa40;
 
 .item {
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
   display: flex;
   flex-wrap: wrap;
+  padding: 20px;
+  transition: .2s ease-in;
   width: 90%;
+  &:hover {
+    background-color: $grey;
+  }
   &__imagem {
     min-width: 240px;
     @media (max-width: $desktop_xsm) {
@@ -26,7 +30,7 @@ $front-end: #80aa40;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 0 20px;
+    margin: 0 20px;
     @media (max-width: $desktop_xsm) {
       flex-direction: row;
       margin-top: 20px;
@@ -46,58 +50,5 @@ $front-end: #80aa40;
       max-width: 600px;
       margin-bottom: 20px;
     }
-  }
-  &__tags {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    max-width: 700px;
-    @media (max-width: $desktop_xsm) {
-      justify-content: flex-end;
-    }
-    @media (max-width: $mobile) {
-      justify-content: flex-start;
-    }
-    > div {
-      margin: 10px;
-    }
-  }
-  &__tipo {
-    align-items: center;
-    border-radius: 2px;
-    display: flex;
-    font-weight: bold;
-    height: 40px;
-    justify-content: center;
-    padding: 10px 30px;
-
-    &__banco-de-dados {
-      background-color: $banco-de-dados;
-      color: white;
-    }
-    &__desenvolvimento-software {
-      background-color: $desenvolvimento-software;
-      color: white;
-    }
-    &__cloud-computing {
-      background-color: $cloud-computing;
-    }
-    &__front-end {
-      background-color: $front-end;
-    }
-  }
-  &__porcao,
-  &__qtdpessoas,
-  &__valor {
-    align-items: center;
-    display: flex;
-    font-size: 1.25rem;
-    font-weight: bold;
-    justify-content: center;
-  }
-  &__valor {
-    color: $red;
-    font-size: 1.7rem;
   }
 }

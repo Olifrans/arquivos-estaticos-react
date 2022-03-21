@@ -2,6 +2,7 @@ import menuItens from "data/livros.json";
 import Item from "./Item";
 import styles from "./Itens.module.scss";
 import { useState, useEffect } from "react";
+import { Menu } from "types/TipoLivro";
 
 interface Props {
   busca: string;
@@ -23,7 +24,7 @@ export default function Itens(props: Props) {
         return true;
     }
 
-    function ordenar(novaLista: typeof menuItens) {
+    function ordenar(novaLista: Menu) {
         switch (ordenador) {
         case "desenvolvimento-software":
             return novaLista.sort((a, b) => (a.size > b.size ? 1 : -1));
